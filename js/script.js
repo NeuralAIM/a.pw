@@ -1,3 +1,8 @@
+if (window.location.hostname !== 'neuralaim.ru') {
+  window.location.href = 'https://neuralaim.ru';
+}
+
+
 // Получить текущий язык из URL
 function getLanguage() {
   var search = window.location.search;
